@@ -24,12 +24,45 @@ rm -rf .git/
   - set `OUTPUT_DIR`
   
 - Make sure your markdown files are **newline terminated**
+- If you have installed pandocfilters in an python environment, make sur to run the `Makefile` with this environment activated
 
 # Requirements
 - [Pandoc](https://github.com/jgm/pandoc)
 - [Pandoc-citeproc](https://github.com/jgm/pandoc-citeproc) (*usually included in pandoc*)
 - [Pandoc-filters](https://github.com/jgm/pandocfilters)
 - [Inkscape](https://inkscape.org/en/) if you use `SVG`
+
+## Install on Ubuntu for pip users
+
+```bash
+sudo apt update && sudo apt upgrade
+sudo apt install pandoc
+sudo apt install pandoc-citeproc
+pip install pandocfilters # In your virtual environment
+sudo apt install inkscape
+```
+
+## Install on Ubuntu for conda users
+```bash
+sudo apt update && sudo apt upgrade
+sudo apt install pandoc
+sudo apt install pandoc-citeproc
+conda create -n ENV_NAME python=3.6
+source activate ENV_NAME
+conda install pandocfilters
+sudo apt install inkscape
+```
+
+## Install on Mac
+```bash
+brew install pandoc
+brew install pandoc-citeproc
+pip install pandocfilters # In your virtual environment
+brew install homebrew/x11/inkscape
+```
+
+## Install on Windows
+[Tutorial](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#0)
 
 # Credit
 This repo is based on @jbn [paper](https://github.com/jbn/paper) repo.
