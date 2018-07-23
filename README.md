@@ -20,7 +20,7 @@ rm -rf .git/
 
 - Modify the `Makefile` for each new document:
   - set `OUTPUT_NAME`
-  - set `PUBLISH_DIR` (_useful forr Dropbox users_)
+  - set `PUBLISH_DIR` (_useful for Dropbox users_)
   - set `OUTPUT_DIR`
   
 - Make sure your markdown files are **newline terminated**
