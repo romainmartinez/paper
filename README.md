@@ -3,7 +3,7 @@ This repository is a skeleton to start a pandoc-based project.
 It features a preamble, bibliography and renders `html`, `pdf` and `docx`.
 
 
-`SVG` files are very popular and useful to academic writing ; this repo provide a modified version of [`pandoc-svg.py`](https://gist.github.com/jeromerobert/3996eca3acd12e4c3d40).
+Since `SVG` files are very popular and useful to academic writing ; this repo provide a modified version of [`pandoc-svg.py`](https://gist.github.com/jeromerobert/3996eca3acd12e4c3d40).
 It requires `Inkscape`.
 
 # Starting a new project
