@@ -12,8 +12,7 @@ It requires `Inkscape`.
 ```bash
 git clone https://github.com/romainmartinez/paper.git
 cd paper
-rm README.md
-rm -rf .git/
+rm -rf README.md .git/
 ```
 
 - Each markdown file must be labeled as `{SECTION}_{SUBSECTION}_{DESCRIPTION}.md`
