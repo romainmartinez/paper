@@ -45,8 +45,7 @@ pip install pandocfilters # In your virtual environment
 sudo apt update && sudo apt upgrade
 sudo apt install pandoc pandoc-citeproc inkscape
 conda create -n ENV_NAME python=3.6
-source activate ENV_NAME
-conda install pandocfilters # in your virtual environment
+conda create -n ENV_NAME -c conda-forge python pandocfilters
 ```
 
 ## Install on Mac
