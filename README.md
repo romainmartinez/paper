@@ -36,29 +36,23 @@ rm -rf .git/
 
 ```bash
 sudo apt update && sudo apt upgrade
-sudo apt install pandoc
-sudo apt install pandoc-citeproc
+sudo apt install pandoc pandoc-citeproc inkscape
 pip install pandocfilters # In your virtual environment
-sudo apt install inkscape
 ```
 
 ## Install on Ubuntu for conda users
 ```bash
 sudo apt update && sudo apt upgrade
-sudo apt install pandoc
-sudo apt install pandoc-citeproc
+sudo apt install pandoc pandoc-citeproc inkscape
 conda create -n ENV_NAME python=3.6
 source activate ENV_NAME
-conda install pandocfilters
-sudo apt install inkscape
+conda install pandocfilters # in your virtual environment
 ```
 
 ## Install on Mac
 ```bash
-brew install pandoc
-brew install pandoc-citeproc
+brew install pandoc pandoc-citeproc homebrew/x11/inkscape
 pip install pandocfilters # In your virtual environment
-brew install homebrew/x11/inkscape
 ```
 
 ## Install on Windows
