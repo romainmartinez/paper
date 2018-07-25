@@ -10,7 +10,7 @@ setup:
 	sudo apt install pandoc pandoc-citeproc inkscape
 
 	# Create conda env
-	conda create -n ${PROJECT_NAME} pandocfilters
+	pip install pandocfilters
 
 	# Download latex template
 	curl https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/master/eisvogel.tex > eisvogel.tex
