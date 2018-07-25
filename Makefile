@@ -8,8 +8,6 @@ setup:
 
 	# Install requirements
 	sudo apt install pandoc pandoc-citeproc inkscape
-
-	# Create conda env
 	pip install pandocfilters
 
 	# Download latex template
